@@ -1,66 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="light" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Your Name - Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Madddd</title>
+    <meta name="description" content="Madddd">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Lora.css">
+    <link rel="stylesheet" href="assets/css/Open%20Sans.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
+    <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css">
+    <link rel="stylesheet" href="assets/css/Responsive-UI-Card.css">
+    <link rel="stylesheet" href="assets/css/Timeline-Steps.css">
 </head>
+
 <body>
-    <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="index.html">Madddd</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About ME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background: url(&quot;assets/img/Screenshot%202023-11-12%20231915.png&quot;);">
+        <div class="overlay"></div>
         <div class="container">
-            <h1>Alvin B. Berdandino</h1>
-            <p>Front end programmer</p>
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto position-relative">
+                    <div class="site-heading">
+                        <h1 style="text-shadow: 0px 0px;"><strong>Alvin B. Berdandino</strong></h1><span class="subheading" style="text-shadow: 0px 0px;"><strong>Front-End Developer</strong></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-
-    <section id="about">
+    <div class="container">
+        <h1>Projects</h1>
         <div class="container">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>Description of Project 1.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog-card blog-card-blog">
+                        <div class="blog-card-image"><a href="#"><img class="img" src="assets/img/Screenshot%202023-11-12%20231915.png"></a>
+                            <div class="ripple-cont"></div>
+                        </div>
+                        <div class="blog-table">
+                            <h6 class="blog-category blog-text-success"><i class="far fa-heart" style="font-size: 15px;"></i> Porject</h6>
+                            <h4 class="blog-card-caption">Project Title</h4>
+                            <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="ftr">
+                                <div class="author"></div>
+                                <div class="stats"><i class="far fa-clock"></i><span>&nbsp;Datetime</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card blog-card-blog">
+                        <div class="blog-card-image"><a href="#"><img class="img" src="assets/img/Screenshot%202023-11-12%20231915.png"></a>
+                            <div class="ripple-cont"></div>
+                        </div>
+                        <div class="blog-table">
+                            <h6 class="blog-category blog-text-success"><i class="far fa-heart"></i> News</h6>
+                            <h4 class="blog-card-caption">Project Ttile</h4>
+                            <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="ftr">
+                                <div class="author"></div>
+                                <div class="stats"><i class="far fa-clock"></i><span>Datetime</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card blog-card-blog">
+                        <div class="blog-card-image"><a href="#"><img class="img" src="assets/img/Screenshot%202023-11-12%20231915.png"></a>
+                            <div class="ripple-cont"></div>
+                        </div>
+                        <div class="blog-table">
+                            <h6 class="blog-category blog-text-success"><i class="far fa-heart"></i> News</h6>
+                            <h4 class="blog-card-caption">Project Title</h4>
+                            <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <div class="ftr">
+                                <div class="author"><a href="#"></a></div>
+                                <div class="stats"><i class="far fa-clock"></i><span>&nbsp;Datetime</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="project">
-                <img src="project2.jpg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>Description of Project 2.</p>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <h1>About Me</h1>
+        <section class="py-4 py-xl-5">
+            <div class="container">
+                <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="text-white p-4 p-md-5">
+                                <h2 class="fw-bold text-white mb-3">Biben dum fringi dictum, augue purus</h2>
+                                <p class="mb-4" style="color: var(--bs-secondary-bg);">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p>
+                                <div class="my-3"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img class="w-100 h-100 fit-cover" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="container">
+                <div class="row text-center justify-content-center mb-5">
+                    <div class="col-lg-8 col-xl-6">
+                        <h2 class="font-weight-bold">Education</h2>
+                        <p class="text-muted">Ikaw na add ani</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div data-aos="fade-up" class="timeline-steps aos-init">
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2003</p>
+                                    <p class="text-muted h6 mb-0 mb-lg-0">Sto Nino. Elemtary School</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2004</p>
+                                    <p class="text-muted h6 mb-0 mb-lg-0">Ambot aha ka</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2005</p>
+                                    <p class="text-muted h6 mb-0 mb-lg-0">Ambot sab</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2010</p>
+                                    <p class="text-muted h6 mb-0 mb-lg-0">Ambot</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step mb-0">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2020">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">2020</p>
+                                    <p class="text-muted h6 mb-0 mb-lg-0">Ambot</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
-
+    </div>
     <footer>
         <div class="container">
-            <p>&copy; 2023 Your Name</p>
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></li>
+                    </ul>
+                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;Madddd 2023</p>
+                </div>
+            </div>
         </div>
     </footer>
-
-    <script src="script.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/clean-blog.js"></script>
 </body>
+
 </html>
